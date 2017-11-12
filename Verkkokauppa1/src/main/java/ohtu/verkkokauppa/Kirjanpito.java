@@ -1,8 +1,10 @@
-
 package ohtu.verkkokauppa;
+import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.ArrayList;
 
+@Component
 public class Kirjanpito implements KiInterface {
     
     private ArrayList<String> tapahtumat;
